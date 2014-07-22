@@ -215,7 +215,7 @@ def sendEmail(subject, bodyText, bodyHtml, addresses):
         send email - both text and html using smtp
     """
 	smtpServer = 'localhost'
-	sender = 'snashalk@tcd.ie'
+	sender = 'someemailadress'
 	subjectMsg = subject 
 
 	mailer = Mailer(smtpServer, smtpUser=None, smtpPassword=None)
