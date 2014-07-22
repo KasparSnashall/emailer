@@ -19,32 +19,49 @@ Again depending on your system you may need to google this. It should be easy. T
 
 3. Now run 
 
-$ pip install virtualenv (wait to finish)
-$ virtualenv myfirstenv
-$ cd (or $ cd home/ for windows)
-$ ls
+$ pip install virtualenv (wait to finish)  
 
-DO YOU SEE  myfirstenv ?  then 
+$ virtualenv myfirstenv  
 
-$ cd myfirstenv
-$ ls
+$ cd (or $ cd home/ for windows)  
 
-if a file called bin in present cd bin
-if lib cd /lib then cd /bin
-now
+$ ls  
+  
+  
 
-$ ls
+DO YOU SEE  myfirstenv ?  then   
 
-is "activate" there?
 
-$ source activate
+$ cd myfirstenv  
+
+$ ls  
+
+
+if a file called bin in present cd bin  
+
+if lib cd /lib then cd /bin  
+
+now  
+
+
+$ ls  
+
+
+is "activate" there?  
+
+
+$ source activate  
+
 
 4. Now using pip youll want to install a package called beautifulsoup run $ pip install BeautifulSoup4
 
 
 
-OK so now you have all of these installed I believe this is all you need. If it complains it can find something when you run it look up the name and have a go at pip installing it.
+OK so now you have all of these installed I believe this is all you need. If it complains it can find something when you run it look up the name and have a go at pip installing it.  
 
-Right so dowload this whole zipped folder to your computer. Add your email adress and password to email_settings.py and who you want to send it too in settings.py Move your html template to the folder.
 
-Then go to your terminal cd /path/to/your/folder and run python -d reporter.py -t YOURTEMPLATENAME.html
+Right so dowload this whole zipped folder to your computer. Add your email adress and password to email_settings.py and who you want to send it too in settings.py Move your html template to the folder.  
+
+
+Then go to your terminal cd /path/to/your/folder and run python -d reporter.py -t YOURTEMPLATENAME.html  
+
