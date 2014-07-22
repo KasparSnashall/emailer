@@ -9,15 +9,16 @@ What you will need to do to set it up:
 creating a python env
 ============
 
-1. So first things first youll need to download python 2.7 just google it for a link.
-
-2. Next youll need to install pip there are several ways of doing this for instance on ubuntu:
-
+So first things first youll need to download python 2.7 just google it for a link.
+==============
+Next youll need to install pip there are several ways of doing this for instance on ubuntu:
+=====
 $ sudo apt-get install python-pip python-dev build-essential              ($ means in the terminal)
 
 Again depending on your system you may need to google this. It should be easy. To check its installed run $ pip list Then we will need to make a virtual env so you dont hurt your computer if its ubuntu but this is good for all other running systems as well.
 
-3. Now run 
+Now run
+=======
 
 $ pip install virtualenv (wait to finish)  
 
@@ -53,8 +54,8 @@ is "activate" there?
 $ source activate  
 
 
-4. Now using pip youll want to install a package called beautifulsoup run $ pip install BeautifulSoup4
-
+Now using pip youll want to install a package called beautifulsoup run $ pip install BeautifulSoup4
+=============
 
 
 OK so now you have all of these installed I believe this is all you need. If it complains it can find something when you run it look up the name and have a go at pip installing it.  
