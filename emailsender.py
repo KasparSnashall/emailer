@@ -10,7 +10,7 @@
 """
 
 __author__ = "Kaspar Snashall"
-__authoremail__ = "snashalk@tcd.ie"
+__authoremail__ = ""
 __version__ = "0.1"
 
 import sys, string, getopt, math, json
@@ -44,7 +44,7 @@ def processArguments():
 	bend = 0
 
 	global emailAddresses
-	emailAddresses = ['snashalk@tcd.ie']
+	emailAddresses = ['your email address']
 
 	try:
 		opts, args = getopt.getopt(sys.argv[1:], "ht:ds:e:", ["help", "template=", "debug", "start=", "end="])
