@@ -24,6 +24,9 @@ $ pip install virtualenv (wait to finish)
 
 $ virtualenv myfirstenv  
 
+
+**  
+
 $ cd (or $ cd home/ for windows)  
 
 $ ls  
@@ -32,7 +35,7 @@ $ ls
 
 DO YOU SEE  myfirstenv ?  then   
 
-**
+
 $ cd myfirstenv  
 
 $ ls  
