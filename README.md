@@ -32,7 +32,7 @@ $ ls
 
 DO YOU SEE  myfirstenv ?  then   
 
-
+**
 $ cd myfirstenv  
 
 $ ls  
@@ -57,9 +57,11 @@ $ source activate
 Now using pip youll want to install a package called beautifulsoup run $ pip install BeautifulSoup4
 ---------
 
-
+Using the emailer
+===========
 OK so now you have all of these installed I believe this is all you need. If it complains it can find something when you run it look up the name and have a go at pip installing it.  
 
+running it requires doing all the steps from **
 
 Right so dowload this whole zipped folder to your computer. Add your email adress and password to email_settings.py and who you want to send it too in settings.py Move your html template to the folder.  
 
